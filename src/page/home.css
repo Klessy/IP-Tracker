@@ -1,0 +1,88 @@
+
+
+.ip_address-bar {
+    background: url("../assets/images/pattern-bg-desktop.png");
+    background-position: left center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 40px;
+    /* height: 200px; */
+    display: grid;
+    place-items: center;
+}
+
+.main_heading {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.form_field {
+    width: 40%;
+    display: flex;
+    background: transparent;
+    margin-bottom: 6.3rem;
+}
+
+.form_field input {
+    width: 100%;
+    /* padding: 10px 50px; */
+    padding: 0 1.25em;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 3.245rem;
+    outline: none;
+}
+
+.btn {
+    padding: 17px 22px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    /* height: 3.245rem; */
+    white-space: nowrap;
+    color: var(--white);
+    background-color: var(--black);
+    cursor: pointer;
+}
+
+
+
+/* ============================ MAP ==================================== */
+
+.leaflet-container {
+    height: 100vh;
+}
+
+
+/* ============================== MOBILE view ================================= */
+@media screen and (max-width: 900px){
+    .main_heading {
+        font-size: 1.5rem;
+        margin-bottom: 18px;
+    }
+
+    .form_field {
+        width: 100%;
+    }
+
+    .form_field input {
+        padding: 0 1.25em;
+        font-size: 16px;
+        height: 3rem;
+    }
+
+    .btn {
+        padding: 16px 20px;
+    }
+
+    .ip_address-bar {
+        background-position: center;
+    }
+}
