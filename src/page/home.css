@@ -39,7 +39,7 @@
 }
 
 .btn {
-    padding: 17px 22px;
+    padding: 16px 22px;
     outline: none;
     border: none;
     border-radius: 12px;
@@ -75,6 +75,7 @@
 
     .form_field {
         width: 100%;
+        margin-bottom: 8rem;
     }
 
     .form_field input {
@@ -84,7 +85,7 @@
     }
 
     .btn {
-        padding: 16px 20px;
+        padding: 13.5px 18px;
     }
 
     .ip_address-bar {
